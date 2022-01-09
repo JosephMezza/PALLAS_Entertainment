@@ -1,0 +1,127 @@
+div{
+    display: block;
+}
+.banner{
+    text-align: center;
+    background-color: lightgrey;
+    opacity: 0.7;
+    padding: 2em;
+
+}
+h1{
+    display: block; /* Will put on its own line and keep together. Inline: Keeps with text and splits. Inline Block: in etxt but doesnt split if 2 words. */
+   /* margin-block-start: 0.5rem;
+    margin-inline-start: 0rem;
+    margin-inline-end: 0.5rem;
+    margin-block-end: 0rem; /*These tell it when to stop/start inline */
+    font-weight: bold;
+
+}
+h3{
+    text-align: center;
+}
+h1.title{
+text-align: center;
+font-size: 3em;
+text-transform: uppercase;
+margin-bottom: 1em;
+}
+.banButtonL{
+    padding: 1em;
+    text-transform: uppercase;
+    margin-right: 5em;
+}
+.banButtonR{
+    padding: 1em 3em;
+    text-transform: uppercase;
+    margin-left: 3em;
+}
+.artists{
+    padding: 1em;
+}
+.OurArtists{
+    text-align: center;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    font-size: 2em;
+
+}
+.ArtistImages{
+    text-align: center;
+  display: block ;
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+}
+.image{
+    position:relative;
+    overflow: hidden;
+}
+.image:hover{
+    
+
+    transition: var(--trans);  
+}
+.maps{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    font-size: 0;
+}
+
+.products-grid{
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,auto));
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+*{ /* All elements */
+    box-sizing: border-box; /* Includes padding, border and everything in width, height! unlike content-box */
+    margin:0;
+    padding:0;
+}
+:root{
+    --trans: all 0.3s linear; /* all means width & height, 0.3s, linear animation time */
+}
+article{
+    text-align: center;
+}
+
+table{
+
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width:600px; 
+    line-height:40px;
+
+}
+
+.more-info{
+    opacity:0;
+    text-align: left;
+    width: 100%;
+    height:100%;
+    position:absolute;
+    color: white;
+    left: 0;
+    top:0;
+}
+
+.more-info:hover{
+opacity:1;
+}
+
+
+/*---------------End Products-------------*/
+
+/*---------------Start of Cart------------*/
+
+
+
+
+
+
